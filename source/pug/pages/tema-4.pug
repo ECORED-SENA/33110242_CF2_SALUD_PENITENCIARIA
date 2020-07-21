@@ -1,0 +1,193 @@
+include ../mixins/functions
++pageHeader("Introducción", "assets/images/header/header_media.svg")
+
+.container
+
+    .header-ecored
+        h1  4. El enfoque diferencial en perspectiva de la salud penitenciaria
+
+    #accordionExample.accordion
+            .card
+                #headingOne.card-header
+                    h2.mb-0
+                        button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                            h3.mb-0.collapsable-title Personas privadas de la libertad con discapacidades
+                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
+                    .card-body
+                        .row.justify-content-center.mt-5
+                            .jumbotron
+                                .ml-6
+                                    blockquote.cita-2.mx-auto “Las personas con discapacidad son aquellas que presentan deficiencias físicas, mentales, intelectuales o sensoriales a largo plazo que, al interactuar con el entorno, encuentran diversas barreras, que pueden impedir su participación plena y efectiva en la sociedad, en igualdad de condiciones con los demás ciudadanos”. <span class="text-muted">(Convención de Naciones Unidas sobre los Derechos de las personas con discapacidad 2006, y Clasificación Internacional del Funcionamiento, la Discapacidad y la Salud, OMS, 2002).</span>
+
+                        p.my-5 La discapacidad forma parte de la condición humana: casi todas las personas sufrirán algún tipo de discapacidad transitoria o permanente en algún momento de su vida. La discapacidad es compleja, y las intervenciones para superar las desventajas asociadas a ella son múltiples, sistémicas y varían según el contexto. 
+
+                        .subtitulo-guion.mt-4
+                            h3.font-weight-normal.text-secondary Necesidades y retos especiales: 
+
+                        .row.align-items-center.justify-content-center
+                            .col-12.col-md-6.col-lg-8
+                                .row.align-items-center
+                                    .col-auto
+                                        p.text-center
+                                            img(src="assets/images/pages/tema-4/i1.svg").img-fluid
+                                    .col
+                                        ul.bg-color-light
+                                            li
+                                                span Acceso a la justicia.
+                                            li
+                                                span Necesidad de protección.
+                                            li
+                                                span No discriminación. 
+                                            li
+                                                span Cuidado de la salud.
+                                            li
+                                                span Lugar de detención que permita la accesibilidad.
+                                            li
+                                                span Inclusión social.
+            .card
+                #headingTwo.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                            h3.mb-0.collapsable-title Minorías étnicas y raciales y pueblos indígenas.
+                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                    .card-body
+
+                        .subtitulo-guion
+                            h3.font-weight-normal.text-secondary Necesidades y retos especiales: 
+
+                        .row.align-items-center.justify-content-center
+                            .col-12.col-md-6.col-lg-8
+                                .row.align-items-center
+                                    .col-auto
+                                        p.text-center
+                                            img(src="assets/images/pages/tema-4/i2.svg").img-fluid
+                                    .col
+                                        ul.bg-color-light
+                                            li
+                                                span Acceso a la justicia.
+                                            li
+                                                span Discriminación.
+                                            li
+                                                span Vínculos con la familia y la comunidad.
+                                            li
+                                                span Barreras de idioma.
+                                            li
+                                                span Religión.
+                                            li
+                                                span Programas penitenciarios.
+                                            li
+                                                span Cuidado de la salud.
+
+            .card
+                #headingThree.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                            h3.mb-0.collapsable-title Extranjeros
+                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                    .card-body
+
+                        .subtitulo-guion
+                            h3.font-weight-normal.text-secondary Necesidades y retos especiales: 
+
+                        .row.align-items-center.justify-content-center
+                            .col-12.col-md-6.col-lg-8
+                                .row.align-items-center
+                                    .col-auto
+                                        p.text-center
+                                            img(src="assets/images/pages/tema-4/i3.svg").img-fluid
+                                    .col
+                                        ul.bg-color-light
+                                            li
+                                                span Acceso a la justicia.
+                                            li
+                                                span No aislamiento.
+                                            li
+                                                span Estado de inmigración.
+                                            li
+                                                span No discriminación.
+                                            li
+                                                span Cultura y religión.
+    
+            .card
+                #heading4.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapse4', aria-expanded='false', aria-controls='collapse4')
+                            h3.mb-0.collapsable-title Personas de tercera edad
+                #collapse4.collapse(aria-labelledby='heading4', data-parent='#accordionExample')
+                    .card-body
+                        .subtitulo-guion
+                            h3.font-weight-normal.text-secondary Necesidades y retos especiales: 
+
+                        .row.align-items-center.justify-content-center
+                            .col-12.col-md-6.col-lg-8
+                                .row.align-items-center
+                                    .col-auto
+                                        p.text-center
+                                            img(src="assets/images/pages/tema-4/i4.svg").img-fluid
+                                    .col
+                                        ul.bg-color-light
+                                            li 
+                                                span Acceso a la justicia.
+                                            li 
+                                                span No Aislamiento.
+                                            li 
+                                                span No Discriminación.  
+
+
+            .card
+                #heading5.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapse5', aria-expanded='false', aria-controls='collapse5')
+                            h3.mb-0.collapsable-title Comunidad LGTBI
+                #collapse5.collapse(aria-labelledby='heading5', data-parent='#accordionExample')
+                    .card-body
+                        .row.align-items-center.justify-content-center
+                            .col-12.col-md-6.col-lg-8
+                                .row.align-items-center
+                                    .col-auto
+                                        p.text-center
+                                            img(src="assets/images/pages/tema-4/i5.svg").img-fluid
+                                    .col
+                                        p Necesidades y retos especiales de no aislamiento, no discriminación, así como las relativas a la identidad de género y orientaciones sexuales, que constituyen en algunos casos obstáculos para acceder y gozar de servicios de salud confiables, eficientes, cálidos y humanos
+
+            .card
+                #heading6.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapse6', aria-expanded='false', aria-controls='collapse6')
+                            h3.mb-0.collapsable-title PPL con necesidades de cuidado de salud mental
+                #collapse6.collapse(aria-labelledby='heading6', data-parent='#accordionExample')
+                    .card-body
+                        .row.align-items-center
+                            .col-auto
+                                p.text-center
+                                    img(src="assets/images/pages/tema-4/i6.svg").img-fluid
+                            .col
+                                p A nivel mundial existe un promedio de 9 millones de personas detenidas en establecimientos penitenciarios. A menudo, las difíciles condiciones de vida en dichos establecimientos exacerban los problemas preexistentes y favorecen el desarrollo de nuevos problemas de salud mental en la población privada de libertad. La casi integralidad de estas personas experimenta un estado depresivo o síntomas relacionados al estrés provocados por la reclusión. Se estima que por lo menos la mitad de ellas presentan un trastorno de la personalidad y que un millón de ellas padecen de trastornos mentales severos, como psicosis o depresión. De acuerdo con la literatura, existe una frecuente comorbilidad entre discapacidades mentales y el uso de substancias psicoactivas en esta población. A pesar de ser internacionalmente reconocido que las personas con discapacidades mentales no deberían ser detenidas en establecimientos penitenciarios, se puede observar que en la realidad muchas de ellas se encuentran privadas de libertad en dichos establecimientos y por lo tanto viven en un entorno que puede ser perjudicial para su salud.
+
+            .card
+                #heading7.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapse7', aria-expanded='false', aria-controls='collapse7')
+                            h3.mb-0.collapsable-title Mujeres privadas de la libertad
+                #collapse7.collapse(aria-labelledby='heading7', data-parent='#accordionExample')
+                    .card-body
+
+                        p Son minorías dentro de las poblaciones carcelarias a nivel mundial siendo entre el 2 y el 9% de la PPL de un país. La provisión de los servicios de salud en las prisiones necesita reconocer que el sexo de la mujer y su género tienen necesidades específicas de salud, y deben ser personalizadas y proporcionadas de una manera integral y humana. Los estándares que deben definir los sistemas de salud para las mujeres privadas de su libertad se establecen en las Reglas de Bangkok de las Naciones Unidas. 
+
+                        .subtitulo-guion.mt-4
+                            h3.font-weight-normal.text-secondary Necesidades y retos especiales: 
+
+                        .row.align-items-center.justify-content-center
+                            .col-12.col-md-6.col-lg-8
+                                .row.align-items-center
+                                    .col-auto
+                                        p.text-center
+                                            img(src="assets/images/pages/tema-4/i7.svg").img-fluid
+                                    .col
+                                        ul.bg-color-light                                
+                                            li
+                                                span Acceso a la justicia.
+                                            li
+                                                span Vínculos con la familia y la comunidad.
+                                            li
+                                                span Programas de salud específicos con énfasis en salud sexual y reproductiva.

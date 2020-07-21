@@ -1,0 +1,38 @@
+[
+  {
+    "letter": "D",
+    "terms": [
+      {
+        "title": "Decretos:",
+        "desciption": "Resolución o decisión que toma una persona o un organismo con autoridad para ello."
+      }
+    ]
+  },
+  {
+    "letter": "L",
+    "terms": [
+      {
+        "title": "Leyes:",
+        "desciption": "Regla o norma establecida por una autoridad superior para regular, de acuerdo con la justicia, algún aspecto de las relaciones sociales."
+      }
+    ]
+  },
+  {
+    "letter": "N",
+    "terms": [
+      {
+        "title": "Normatividad:",
+        "desciption": "Se entiende por normatividad o normativa a las formas institucionales a través de las cuales el comportamiento es configurado socialmente."
+      }
+    ]
+  },
+  {
+    "letter": "R",
+    "terms": [
+      {
+        "title": "Resoluciones administrativas:",
+        "desciption": "En este sentido, es una orden que pronuncia el responsable de un servicio público. Se trata de una norma cuyo alcance está limitado al contexto del servicio en cuestión y cuyo cumplimiento es obligatorio."
+      }
+    ]
+  }
+]
