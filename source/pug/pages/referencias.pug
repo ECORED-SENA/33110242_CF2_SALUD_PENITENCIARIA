@@ -1,46 +1,46 @@
+include ../mixins/functions
+
 .container
 
-    ol
-        li
-            p
-                a(href="https://www.icrc.org/es/publication/atencion-salud-detencion-guia-practica", target="_blank") Comité Internacional de la Cruz Roja CICR.  Asistencia de salud en lugares de detención: guía práctica (2014).  https://www.icrc.org/es/publication/atencion-salud-detencion-guia-practica 
+    .header-ecored
+        h1 Referencias bibliográficas
 
-        li
-            p
-                a(href="https://catalogocedoc.indh.cl/index.php?lvl=notice_display&id=103", target="_blank") Comisión Interamericana de Derechos Humanos (CIDH). Informe sobre los DDHH de las personas privadas de la libertad en las Américas (2011). 237p. https://catalogocedoc.indh.cl/index.php?lvl=notice_display&id=103 
+    .jumbotron.bg-white.referencias
+        +referenciaItem("Comité Internacional de la Cruz Roja CICR.  Asistencia de salud en lugares de detención: guía práctica (2014).", "https://www.icrc.org/es/publication/atencion-salud-detencion-guia-practica")
+
+        +referenciaItem("Comisión Interamericana de Derechos Humanos (CIDH). Informe sobre los DDHH de las personas privadas de la libertad en las Américas (2011). 237p.", "https://www.icrc.org/es/publication/atencion-salud-detencion-guia-practica")
+
+        +referenciaItem("Cruz Roja Internacional CICR. Cruz Roja Nogales. (2011). En detención: la humanidad tras las rejas. [archivo de video]. Recuperado de ", "https://www.youtube.com/watch?v=XKJo-XzN9A4&t=341s")
+
+        +referenciaItem("López, G., Luna, A. y colaboradores. Sanidad Penitenciaria: Dilemas médico-legales. Capítulo 5 (2005). Organización Médica Colegial de España. Consejo General de la Abogacía Española. Sociedad Iberoamericana de Derecho Médico.", "")
+
+        +referenciaItem("Ministerio de salud. Resolución número 1995 de 1999 (Julio 8). Normas para el manejo de la Historia Clínica.", "https://www.medicosgeneralescolombianos.com/images/Leyes/RES1995.DOC")
+
+        +referenciaItem("Naciones Unidas. Oficina del Alto Comisionado de las Naciones Unidas para los derechos humanos (2004). Protocolo de Estambul. Manual para la investigación y documentación eficaces  de la tortura y otros tratos o penas crueles, inhumanos o degradantes.", "https://www.ohchr.org/Documents/Publications/training8Rev1sp.pdf")
+
+        +referenciaItem("Naciones Unidas (2011). Convención sobre los derechos de las personas con discapacidad.", "https://www.un.org/esa/socdev/enable/documents/tccconvs.pdf")
+
+        +referenciaItem("Oficina de las Naciones Unidas contra la droga y el delito (UNODC) (2014) Las Reglas Mínimas de las Naciones Unidas para el Tratamiento de los Reclusos (Reglas Nelson Mandela).", "https://www.unodc.org/documents/justice-and-prison-reform/Brochure_on_the_The_UN_Standard_Minimum_the_Nelson_Mandela_Rules-S.pdf")
+
+        +referenciaItem("UNODC Oficina de las Naciones Unidas contra la Droga y el Delito (2009). Manual sobre Reclusos con necesidades especiales.", "https://www.unodc.org/documents/justice-and-prison-reform/MANUAL_RECLUSOS_CON_NECESIDADES_ESPECIALES_1.pdf")
+
+        +referenciaItem("World Health Organization. Prisons and Health (2014). Regional Office for Europe.", "http://www.euro.who.int/__data/assets/pdf_file/0005/249188/Prisons-and-Health.pdf")
+
+        +referenciaItem("WMA - The World Medical Association-Declaración de Malta de la AMM sobre las Personas en Huelga de Hambre.", "https://www.wma.net/es/policies-post/declaracion-de-malta-de-la-amm-sobre-las-personas-en-huelga-de-hambre/")
 
 
-        li
-            p
-                a(href="https://www.youtube.com/watch?v=XKJo-XzN9A4", target="_blank") Cruz Roja Internacional CICR. Cruz Roja Nogales. (2011). En detención: la humanidad tras las rejas. [archivo de video]. Recuperado de https://www.youtube.com/watch?v=XKJo-XzN9A4&t=341s 
-        
-        li 
-            p López, G., Luna, A. y colaboradores. Sanidad Penitenciaria: Dilemas médico-legales. Capítulo 5 (2005). Organización Médica Colegial de España. Consejo General de la Abogacía Española. Sociedad Iberoamericana de Derecho Médico. 
+        .row.justify-content-between.align-items-center
 
-        li
-            p
-                a(href="https://www.medicosgeneralescolombianos.com/images/Leyes/RES1995.DOC", target="_blank") Ministerio de salud. Resolución número 1995 de 1999 (Julio 8). Normas para el manejo de la Historia Clínica.  https://www.medicosgeneralescolombianos.com/images/Leyes/RES1995.DOC 
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-picture-o.fa-2x.text-center
+                        p.text-center.flex-grow-1 Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a>
 
-        li
-            p
-                a(href="https://www.ohchr.org/Documents/Publications/training8Rev1sp.pdf", target="_blank") Naciones Unidas. Oficina del Alto Comisionado de las Naciones Unidas para los derechos humanos (2004). Protocolo de Estambul. Manual para la investigación y documentación eficaces  de la tortura y otros tratos o penas crueles, inhumanos o degradantes. https://www.ohchr.org/Documents/Publications/training8Rev1sp.pdf
-
-        li
-            p
-                a(href="https://www.un.org/esa/socdev/enable/documents/tccconvs.pdf", target="_blank") Naciones Unidas (2011). Convención sobre los derechos de las personas con discapacidad. https://www.un.org/esa/socdev/enable/documents/tccconvs.pdf
-                 
-        li
-            p
-                a(href="https://www.unodc.org/documents/justice-and-prison-reform/Brochure_on_the_The_UN_Standard_Minimum_the_Nelson_Mandela_Rules-S.pdf", target="_blank") Oficina de las Naciones Unidas contra la droga y el delito (UNODC) (2014) Las Reglas Mínimas de las Naciones Unidas para el Tratamiento de los Reclusos (Reglas Nelson Mandela). https://www.unodc.org/documents/justice-and-prison-reform/Brochure_on_the_The_UN_Standard_Minimum_the_Nelson_Mandela_Rules-S.pdf
-
-        li
-            p 
-                a(href="https://www.unodc.org/documents/justice-and-prison-reform/MANUAL_RECLUSOS_CON_NECESIDADES_ESPECIALES_1.pdf", target="_blank") UNODC Oficina de las Naciones Unidas contra la Droga y el Delito (2009). Manual sobre Reclusos con necesidades especiales. https://www.unodc.org/documents/justice-and-prison-reform/MANUAL_RECLUSOS_CON_NECESIDADES_ESPECIALES_1.pdf
-
-        li
-            p 
-                a(href="http://www.euro.who.int/__data/assets/pdf_file/0005/249188/Prisons-and-Health.pdf", target="_blank") World Health Organization. Prisons and Health (2014). Regional Office for Europe. http://www.euro.who.int/__data/assets/pdf_file/0005/249188/Prisons-and-Health.pdf 
-
-        li 
-            p 
-                a(href="https://www.wma.net/es/policies-post/declaracion-de-malta-de-la-amm-sobre-las-personas-en-huelga-de-hambre/", target="_blank") WMA - The World Medical Association-Declaración de Malta de la AMM sobre las Personas en Huelga de Hambre. (2017). https://www.wma.net/es/policies-post/declaracion-de-malta-de-la-amm-sobre-las-personas-en-huelga-de-hambre/
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-creative-commons.fa-2x.text-center
+                        p.text-center.flex-grow-1 Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a>            

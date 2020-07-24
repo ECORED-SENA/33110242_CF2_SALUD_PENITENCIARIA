@@ -13,25 +13,25 @@
   }, 
   {
     "icon": "fa fa-file-text-o",
-    "slug": "nocion-derecho",
+    "slug": "tema-1",
     "title": "1. El derecho a la salud de la PPL. PPL como pacientes",
     "path": "pages/tema-1.html"
   },
   {
     "icon": "fa fa-file-text-o",
-    "slug": "marco-normativo",
+    "slug": "tema-2",
     "title": "2. Dilemas éticos en el ejercicio del trabajo en salud en el sistema penitenciario",
     "path": "pages/tema-2.html" 
   },
   {
     "icon": "fa fa-file-text-o",
-    "slug": "tratamiento-penitenciario",
+    "slug": "tema-3",
     "title": "3. Vulneración de los derechos en el contexto penitenciario. Abuso y Violencia sexual, tortura, malos tratos, huelga de hambre y confinamiento solitario",
     "path": "pages/tema-3.html"
   },
   {
     "icon": "fa fa-file-text-o",
-    "slug": "tratamiento-penitenciario",
+    "slug": "tema-4",
     "title": "4. El enfoque diferencial en perspectiva de la salud penitenciaria",
     "path": "pages/tema-4.html"
   } 

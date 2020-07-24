@@ -1,31 +1,49 @@
-mixin pageHeader(tituloTema, srcImagen)
-    .page-header.mb-5
-        .page-textura
-            .container
+mixin pageHeader(tituloTema, srcImagen, pagina)
 
-                .row.align-items-center
+    .curso-portada
 
-                    .col-12.col-lg-6
+        .row.align-items-center
 
-                        h3#curso-titulo-componente.curso-subtitulo Salud Penitenciaria
-                        h1#curso-titulo-tema.curso-titulo DDHH y Ética médica
+            .col-12.col-lg-6
 
-                        .brand-line-primary
+                h3#curso-titulo-componente.curso-subtitulo Salud Penitenciaria
+                h1#curso-titulo-tema.curso-titulo DDHH y Ética médica
 
-                        .keywords
-                            span.badge.badge-pill.badge-light.mr-2 #SaludCarcelaria
-                            span.badge.badge-pill.badge-light.mr-2 #SistemaPenitenciario
-                            span.badge.badge-pill.badge-light.mr-2 #AbusoViolenciaSexual
-                            span.badge.badge-pill.badge-light.mr-2 #MalosTratos
+                .brand-line-primary
 
+                if pagina == 'main'
 
-                        .barra-dots.mt-5
-                            img.img-fluid(src='assets/images/header/icon_dots.svg', alt='alt')
+                    .keywords
+                        span.badge.badge-pill.badge-light.mr-2 #DerechosVulnerados
+                        span.badge.badge-pill.badge-light.mr-2 #SistemaPenitenciario
+                        span.badge.badge-pill.badge-light.mr-2 #ViolenciaSexual
+                        span.badge.badge-pill.badge-light.mr-2 #Tortura
 
 
-                    .col-12.col-lg-6
-                        .d-none.d-lg-block
-                            img(src= srcImagen).curso-imagen
+                    .barra-dots.mt-5
+                        img.img-fluid(src='assets/images/header/icon_dots.svg', alt='alt')
+
+                else 
+                    p.curso-descripcion En este componente se desarrollarán actividades de conocimiento y aprendizaje acerca de los DDHH concernientes a la PPL y de la ética médica, donde los aprendices tendrán una aproximación de abordaje holístico y reconocimiento de la PPL como pacientes, teniendo en cuenta sus particularidades de género, poblacionales y socioculturales.
+        
+                if pagina == 'home'
+                    a.curso-btn-iniciar.btn.btn-light(href="main.html")
+                        span Iniciar Curso
+
+
+            .col-12.col-lg-6.text-center
+                .d-none.d-lg-block
+                    img(src= srcImagen).curso-imagen
+
+
+mixin referenciaItem(referencia, enlace, tituloenlace="")
+    p= referencia
+        if tituloenlace != ""
+            a(href= enlace, target="_blank").ml-2= tituloenlace
+        else if enlace != ""
+            a(href= enlace, target="_blank").ml-2= enlace
+    hr
+
 
 
 mixin navTemaItem(numero, titulo, ruta)
